@@ -1,0 +1,161 @@
+/* Cabeçalho 
+header {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}*/
+header {
+    background: linear-gradient(to right, #4facfe, #c95a9b);
+    padding: 20px 20px 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+/* Navegação estilo abas */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #00f2fe;
+}
+
+nav a {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: #fff;
+  color: #003366;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1) inset;
+}
+
+nav a:hover {
+  background: #00f2fe;
+  color: #fff;
+}
+
+/* Texto abaixo do nav */
+header p {
+  font-size: 26px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+/* Container do formulário */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Título do formulário */
+.container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  color: #003366;
+}
+
+/* Inputs e Textarea */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 1px solid #4facfe;
+  box-shadow: 0 0 6px rgba(79,172,254,0.5);
+}
+
+/* Textarea */
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Area do Botão*/ 
+button {
+  display: block;
+  width: 30%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #003366;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+button:hover {
+  background: #0055aa;
+  transform: scale(1.02);
+}
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  width: 28%;
+  display: inline-block;
+}
+
+/* Botão enviar */
+button[type="submit"] {
+  background: #003366;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background: #0055aa;
+}
+
+/* Botão limpar */
+button[type="reset"] {
+  background: #003366;
+  color: #fff;
+}
+
+button[type="reset"]:hover {
+  background: #0055aa;
+}
+
+
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #c95a9b);
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+}

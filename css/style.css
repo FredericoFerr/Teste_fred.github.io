@@ -1,0 +1,164 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #4facfe, #c95a9b);
+    padding: 20px 20px 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+/* Navegação estilo abas */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #00f2fe;
+}
+
+nav a {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: #fff;
+  color: #003366;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1) inset;
+}
+
+nav a:hover {
+  background: #00f2fe;
+  color: #fff;
+}
+
+header p {
+  font-size: 26px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+/* Estilos gerais da tabela */
+.tabela-precos {
+    width: 00%;
+    border-collapse: collapse; /* Remove o espaço entre as bordas */
+    margin: 60px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Tabela de Preços */
+.tabela-precos {
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tabela-precos th {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tabela-precos td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabela-precos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-precos tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+   }
+
+
+.imagem-destaque {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.texto {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.texto h2, .texto h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+
+.video-destaque {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+footer {
+    background: linear-gradient(to right, #4facfe, #c95a9b);
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+}

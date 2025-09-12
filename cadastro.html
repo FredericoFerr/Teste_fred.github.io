@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário - JWS Diversões</title>
+  <link rel="stylesheet" href="..\css\cadastro.css">
+</head>
+<body>
+  <header>
+    <h1>JWS - DIVERSÕES</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="cadastro.html">Contatos</a>
+    </nav>
+    <p>Entre em contato conosco</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>Formulário de Contato</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        </div> 
+
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" placeholder="Rua, nº, bairro, cidade" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+        </div>     
+
+        <div class="form-group">
+          <label for="assunto">Assunto:</label>
+          <select id="assunto" name="assunto" required>
+            <option value="">Selecione...</option>
+            <option value="orçamento">Orçamento</option>
+            <option value="eventos">Eventos</option>
+            <option value="suporte">Suporte</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+        </div>
+
+        <div class="form-buttons">    
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>JWS - Parque de Diversão — Todos os direitos reservados &copy; 2025</p>
+  </footer>
+</body>
+</html>
